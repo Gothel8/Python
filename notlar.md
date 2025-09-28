@@ -8,18 +8,17 @@ Daha ileri aşamada pandas, numpy gibi kütüphaneler gelecek.
 ## 2. Değişkenler ve Veri Tipleri
 Python’da veriler değişkenlere atanır. Temel veri tipleri: integer, float, string, boolean.
 
-python
-Kodu kopyala
+```python
 age = 21           # integer
 name = "Nurdan"    # string
 gpa = 3.45         # float
 is_student = True  # boolean
-
+```
 
 ## 3. Stringlerle Çalışmak
 Stringler (metinler) üzerinde işlem yapabiliriz.
 
-python
+````
 Kodu kopyala
 text = "Python"
 print(text.upper())      # BÜYÜK HARF
@@ -27,6 +26,7 @@ print(text.lower())      # küçük harf
 print(len(text))         # uzunluk
 print(text[0])           # ilk karakter
 print(text[1:4])         # alt string
+````
 Önemli fonksiyonlar: .strip(), .replace(), .find(), .split(), .join()
 
 
@@ -205,5 +205,6 @@ Bu da çok
 satırlı
 yorum
 """
+
 
 

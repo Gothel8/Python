@@ -5,7 +5,7 @@ Daha ileri aşamada pandas, numpy gibi kütüphaneler gelecek.
 
 ---
 
-##2. Değişkenler ve Veri Tipleri
+## 2. Değişkenler ve Veri Tipleri
 Python’da veriler değişkenlere atanır. Temel veri tipleri: integer, float, string, boolean.
 
 python
@@ -16,7 +16,7 @@ gpa = 3.45         # float
 is_student = True  # boolean
 
 
-##3. Stringlerle Çalışmak
+## 3. Stringlerle Çalışmak
 Stringler (metinler) üzerinde işlem yapabiliriz.
 
 python
@@ -30,7 +30,7 @@ print(text[1:4])         # alt string
 Önemli fonksiyonlar: .strip(), .replace(), .find(), .split(), .join()
 
 
-##4. Sayılarla Çalışmak
+## 4. Sayılarla Çalışmak
 Matematiksel işlemler, üs alma, yuvarlama vb.
 
 python
@@ -42,14 +42,14 @@ print(round(3.7))  # 4
 Önemli fonksiyonlar: max(), min(), sum(), round(), abs()
 
 
-##5. Kullanıcıdan Girdi Almak
+## 5. Kullanıcıdan Girdi Almak
 python
 Kodu kopyala
 name = input("Adınızı girin: ")
 print("Merhaba " + name)
 
 
-##6. Basit Hesap Makinesi
+## 6. Basit Hesap Makinesi
 python
 Kodu kopyala
 num1 = float(input("Bir sayı girin: "))
@@ -57,7 +57,7 @@ num2 = float(input("Bir sayı daha girin: "))
 print("Toplam:", num1 + num2)
 
 
-##7. Listeler
+## 7. Listeler
 Listeler, birden fazla öğeyi saklamak için kullanılır.
 
 python
@@ -71,7 +71,7 @@ print(friends)
 Önemli fonksiyonlar: append(), insert(), remove(), pop(), sort(), reverse()
 
 
-##8. Tuple’lar
+## 8. Tuple’lar
 Tuple’lar, listeler gibi ama değiştirilemez (immutable).
 
 python
@@ -80,7 +80,7 @@ coordinates = (4, 5)
 print(coordinates[0])
 
 
-##9. Fonksiyonlar
+## 9. Fonksiyonlar
 Kendi işlevlerimizi tanımlamak için kullanılır.
 
 python
@@ -99,7 +99,7 @@ def cube(num):
 print(cube(3))  # 27
 
 
-##10. If – Else
+## 10. If – Else
 Koşullu ifadeler ile karar yapıları oluşturulur.
 
 python
@@ -119,7 +119,7 @@ print(3 > 1)   # True
 print(2 <= 2)  # True
 
 
-##11. Dictionary
+## 11. Dictionary
 Anahtar-değer çiftlerini saklamak için kullanılır.
 
 python
@@ -130,7 +130,7 @@ aylar["Mart"] = "March"  # yeni ekleme
 Önemli fonksiyonlar: keys(), values(), items(), get()
 
 
-##12. Döngüler
+## 12. Döngüler
 While Döngüsü:
 
 python
@@ -153,7 +153,7 @@ for friend in ["Ali", "Ayşe", "Mehmet"]:
     print(friend)
 
 
-##13. 2D List & Nested Loops
+## 13. 2D List & Nested Loops
 İç içe listeler ve döngüler.
 
 python
@@ -168,7 +168,7 @@ for row in number_grid:
         print(col)
 
 
-##14. Try / Except
+## 14. Try / Except
 Hata yönetimi için kullanılır.
 
 python
@@ -182,7 +182,7 @@ except ValueError:
     print("Geçerli bir sayı girin")
 
 
-##15. Dosya Okuma
+## 15. Dosya Okuma
 python
 Kodu kopyala
 file = open("data.txt", "r", encoding="utf-8")
@@ -196,7 +196,7 @@ with open("data.txt", "r", encoding="utf-8") as file:
     print(file.read())
 
     
-##16. Yorum Satırları
+## 16. Yorum Satırları
 python
 Kodu kopyala
 # Bu tek satırlık yorum
@@ -205,4 +205,5 @@ Bu da çok
 satırlı
 yorum
 """
+
 
